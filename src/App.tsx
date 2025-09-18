@@ -36,6 +36,7 @@ export default function App() {
 
   useEffect(() => {
     load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleAdd = async (title: string, description: string) => {
